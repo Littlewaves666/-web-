@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
+    
+</head>
+<body>
+    
+    <div id="string_1">
+        <p>
+            {{ num1 }}
+        </p>
+    </div>
+    <script >
+        var t1 = new Vue({
+            el:"#string_1",
+            data:{
+                num1:'第一次测试！'
+            }
+        });
+    </script>
+</body>
+</html>
